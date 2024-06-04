@@ -24,7 +24,7 @@ const brandDescriptions = {
     honda: {
         description: "Il marchio Honda è una presenza iconica nel mondo delle motociclette. Fondata nel 1948 da Soichiro Honda e Takeo Fujisawa, l’azienda ha guadagnato una reputazione di eccellenza nel settore delle due ruote. Nel 1949, la prima moto Honda, chiamata “Dream” (ossia “sogno”), ha segnato l’inizio del cammino della Honda verso il ruolo di primo produttore giapponese di motociclette. Da allora, la Honda ha realizzato oltre 400 milioni di esemplari di moto in tutto il mondo",
         image: "honda.png",  
-        motogp: "lorem ipsum oltre dame",
+        motogp: "Honda è un marchio iconico nel mondo delle corse motociclistiche, e la sua presenza in MotoGP è di grande rilevanza.Il Repsol Honda Team è il team ufficiale di Honda in MotoGP.La moto utilizzata dal team è la RC213V, una macchina altamente competitiva negli scorsi anni che con l'avento dell'elettronica e dell'importanza dell'aerodinamica ha perso competività. <br>Marc Marquez in crisi con la casa motociclistica Honda, nella stagione 2024, è passato in Pramac, una sottocasa che usa moto Ducati della stagione 2023, dove Marc è molto competitivo.",
         motogpimage: "marquez.jpg"
     },
 };
