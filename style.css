@@ -1,0 +1,68 @@
+:root {
+    --scuro: #3d3d3d;
+    --scuro-grigio: #666666;
+    --chiaro-grigio: #b3b3b3;
+    --arancione: #ff6633;
+    --giallo: #ffcc00;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--scuro);
+    font-size: 4vw;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 14px rgba(0,0,0,0.6);
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.brand-button {
+    background-color: var(--arancione);
+    color: var(--scuro);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+    box-shadow: 4px 3px 30px rgba(0,0,0,0.2);
+}
+
+.brand-button:hover {
+    background-color: var(--scuro-grigio);
+    color:#b3b3b3;
+    border-radius: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#brand-description {
+    border: 1px solid var(--arancione);
+    padding: 20px;
+    background-color: var(--giallo); /* Esempio: usare giallo per il div della descrizione */
+    border-radius: 2rem;
+    width: 80vw;
+}
+
+#brand-description img {
+    width: 40vw; /* Immagine responsive */
+    height: auto;
+    aspect-ratio: 16/9;
+    display: block; /* Per evitare spazi vuoti sotto l'immagine */
+    margin: 20px auto; /* Margine superiore e inferiore, centratura orizzontale */
+    object-fit: cover;
+    background-color: #fff;
+}
