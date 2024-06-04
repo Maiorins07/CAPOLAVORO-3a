@@ -10,22 +10,22 @@ const brandDescriptions = {
 
     },
     yamaha: {
-        description: "Lamborghini è un'azienda italiana che produce autovetture sportive di lusso. Fondata nel 1963 da Ferruccio Lamborghini, ha sede a Sant'Agata Bolognese, in provincia di Bologna.",
-        image: "yamaha.jpg",  // Sostituisci con URL immagine reale
+        description: "Il marchio Yamaha è leggendario nel mondo delle motociclette. Fondato nel maggio 1955 a Shizuoka, Giappone, il suo nome completo è Yamaha Motor Company. Questo marchio è specializzato nella produzione di veicoli a due ruote, tra cui moto, scooter, ciclomotori, biciclette elettriche e altro ancora. Il logo Yamaha è composto da tre diapason sovrapposti, che rappresentano le tre principali aree di attività dell’azienda: la produzione di motociclette, strumenti musicali e motori marini. Se sei interessato a esplorare la gamma di moto Yamaha, dai un’occhiata al sito ufficiale di Yamaha Motor Italia per conoscere le caratteristiche, i prezzi e i servizi disponibili.",
+        image: "yamaha.jpg",  
         motogp: "Valentino Rossi è stato un campione in MotoGP, con ben 9 campionati mondiali vinti e uno sfiorato per colpa del suo rivale Mark Marquez. Passò a yamaha dopo che tutti gli dicevano che era facile vincere in sella alla moto più competitiva del tempo, passò in yamaha per far vedere che anche con una moto poco competitiva riusciva a stare davanti ai suoi rivali <br> Ha lasciato la MotoGP ed ha creato l'accademia VR46 che porta i giovani motociclisti a diventare campioni in ambito motociclistico.",
         motogpimage: "rossi.jpg"
     },
     aprilia: {
-        description: "FIAT è un marchio automobilistico italiano, fondato a Torino nel 1899.  È il marchio principale di Stellantis, un gruppo multinazionale di case automobilistiche nato dalla fusione di PSA e FCA.",
-        image: "aprilia.jpg",  // Sostituisci con URL immagine reale
-        motogp: "lorem ipsum oltre dame",
+        description: "Aprilia è una casa motociclistica italiana con una storia affascinante. Fondata nel 1945 a Noale, in provincia di Venezia, Aprilia è diventata parte del Gruppo Piaggio nel dicembre 2004. L’Aprilia fu fondata subito dopo la fine della seconda guerra mondiale dal Cavalier Alberto Beggio.Inizialmente, l’azienda produceva biciclette per soddisfare la crescente richiesta del periodo. <br> Il nome “Aprilia” fu scelto da Beggio in omaggio alla Lancia Aprilia, una vettura lanciata nel 1937 dalla casa automobilistica Lancia",
+        image: "aprilia.jpg", 
+        motogp: "Aprilia ha conquistato 54 titoli mondiali in vari campionati grazie a diversi piloti. Nel motomondiale, ha ottenuto 294 Gran Premi, posizionandosi al primo posto tra i costruttori europei in termini di vittorie. <br>Nel mondiale Superbike, ha registrato 52 vittorie e 172 podi, oltre a 8 vittorie nella Superstock 1000 FIM Cup",
         motogpimage: "apriliagp.jpg"
     }, 
     honda: {
-        description: "FIAT è un marchio automobilistico italiano, fondato a Torino nel 1899.  È il marchio principale di Stellantis, un gruppo multinazionale di case automobilistiche nato dalla fusione di PSA e FCA.",
-        image: "aprilia.jpg",  // Sostituisci con URL immagine reale
+        description: "Il marchio Honda è una presenza iconica nel mondo delle motociclette. Fondata nel 1948 da Soichiro Honda e Takeo Fujisawa, l’azienda ha guadagnato una reputazione di eccellenza nel settore delle due ruote. Nel 1949, la prima moto Honda, chiamata “Dream” (ossia “sogno”), ha segnato l’inizio del cammino della Honda verso il ruolo di primo produttore giapponese di motociclette. Da allora, la Honda ha realizzato oltre 400 milioni di esemplari di moto in tutto il mondo",
+        image: "honda.png",  
         motogp: "lorem ipsum oltre dame",
-        motogpimage: "apriliagp.jpg"
+        motogpimage: "marquez.jpg"
     },
 };
 
