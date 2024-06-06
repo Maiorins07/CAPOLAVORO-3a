@@ -7,20 +7,27 @@ const brandDescriptions = {
         image: "ducati.png",
         motogp: "Ducati è la casa più vincente degli ultimi tempi nella MotoGP, con Francesco Bagnaia in sella alle moto di nuova generazione. La casa di Borgo Panigale partecipa al Campionato Mondiale MotoGP dal 2003. Nel corso degli anni, le moto Ducati hanno trionfato su 20 circuiti diversi. Alcune delle piste in cui la Desmosedici ha ottenuto più successi includono Motegi, Sepang, Losail e Red Bull Ring, con cinque vittorie ciascuna. Al Mugello, Montmelò e Phillip Island, Ducati ha ottenuto quattro vittorie. Inoltre, Ducati ha centrato un totale di 32 podi nella stagione 2022, con 6 piloti diversi, tra cui 12 vittorie. <br>Queste moto hanno molta elettronica per poterla portare al limite, oltre all'elettronica hanno un sacco di aerodinamica, che negli ultimi anni sta diventando sempre più presente.",
         motogpimage: "pecco.jpg",
-        stradale:"Ducati produce molte varietà stradali, da sportive a motard, passando da turistiche espandendosi negli ultimi tempi con piccoli spoiler per l'off-road.<br>Ecco qualche immagine delle moto più apprezzate daglòi appassionati",
-        stradaleimage1:"panigaleV4.jpg"
+        stradale:"Ducati produce molte varietà stradali, da sportive a motard, passando da turistiche espandendosi negli ultimi tempi con piccoli spoiler per l'off-road.<br>Ecco qualche immagine delle moto più apprezzate dagli appassionati:",
+        stradaleimage1:"panigaleV4.jpg",
+        stradaleimage2:"streetfighter.jpg"
     },
     yamaha: {
         description: "Il marchio Yamaha è leggendario nel mondo delle motociclette. Fondato nel maggio 1955 a Shizuoka, Giappone, il suo nome completo è Yamaha Motor Company. Questo marchio è specializzato nella produzione di veicoli a due ruote, tra cui moto, scooter, ciclomotori, biciclette elettriche e altro ancora. Il logo Yamaha è composto da tre diapason sovrapposti, che rappresentano le tre principali aree di attività dell’azienda: la produzione di motociclette, strumenti musicali e motori marini. Se sei interessato a esplorare la gamma di moto Yamaha, dai un’occhiata al sito ufficiale di Yamaha Motor Italia per conoscere le caratteristiche, i prezzi e i servizi disponibili.",
         image: "yamaha.jpg",  
         motogp: "Valentino Rossi è stato un campione in MotoGP, con ben 9 campionati mondiali vinti e uno sfiorato per colpa del suo rivale Mark Marquez. Passò a yamaha dopo che tutti gli dicevano che era facile vincere in sella alla moto più competitiva del tempo, passò in yamaha per far vedere che anche con una moto poco competitiva riusciva a stare davanti ai suoi rivali <br> Ha lasciato la MotoGP ed ha creato l'accademia VR46 che porta i giovani motociclisti a diventare campioni in ambito motociclistico.",
-        motogpimage: "rossi.jpg"
+        motogpimage: "rossi.jpg",
+        stradale:"Yamaha in ambito moto da strada ha una gamma molto vasta, anche moto di piccola cilindrata che cattura gli occchi dei sedicenni che vogliono coprarsi la loro prima moto. Moto con poca manutenzione sono la specialità delle case giapponesi.<br>Ecco alcune moto che a me piacciono molto della gamma yamaha:",
+        stradaleimage1:"r1m.jpg",
+        stradaleimage2:"yz125.jpg"
     },
     aprilia: {
         description: "Aprilia è una casa motociclistica italiana con una storia affascinante. Fondata nel 1945 a Noale, in provincia di Venezia, Aprilia è diventata parte del Gruppo Piaggio nel dicembre 2004. L’Aprilia fu fondata subito dopo la fine della seconda guerra mondiale dal Cavalier Alberto Beggio.Inizialmente, l’azienda produceva biciclette per soddisfare la crescente richiesta del periodo. <br> Il nome “Aprilia” fu scelto da Beggio in omaggio alla Lancia Aprilia, una vettura lanciata nel 1937 dalla casa automobilistica Lancia",
         image: "aprilia.jpg", 
         motogp: "Aprilia ha conquistato 54 titoli mondiali in vari campionati grazie a diversi piloti. Nel motomondiale, ha ottenuto 294 Gran Premi, posizionandosi al primo posto tra i costruttori europei in termini di vittorie. <br>Nel mondiale Superbike, ha registrato 52 vittorie e 172 podi, oltre a 8 vittorie nella Superstock 1000 FIM Cup",
-        motogpimage: "apriliagp.jpg"
+        motogpimage: "apriliagp.jpg",
+        stradale:"La casa costruttrice italiana Aprilia si concentra sull'ambito moto Racing, moto ad alte prestazioni e con elettronica costruita da Aprilia stessa. Queste moto sono ottime per uso pistaiolo ma ancehe su strada hanno ogni confort del caso. <br>Ecco alcuni esempi di moto da strada di Aprilia:",
+        stradaleimage1:"apriliars660.jpg",
+        stradaleimage2:"apriliarsv4.jpg"
     }, 
     honda: {
         description: "Il marchio Honda è una presenza iconica nel mondo delle motociclette. Fondata nel 1948 da Soichiro Honda e Takeo Fujisawa, l’azienda ha guadagnato una reputazione di eccellenza nel settore delle due ruote. Nel 1949, la prima moto Honda, chiamata “Dream” (ossia “sogno”), ha segnato l’inizio del cammino della Honda verso il ruolo di primo produttore giapponese di motociclette. Da allora, la Honda ha realizzato oltre 400 milioni di esemplari di moto in tutto il mondo",
@@ -50,6 +57,7 @@ buttons.forEach(button => {
             <h3>STRADALE</h3>
             <p>${brandData.stradale}</p>
             <img src="${brandData.stradaleimage1}">
+            <img src="${brandData.stradaleimage2}">
         `;
         descriptionDiv.classList.remove('hidden');
     });
