@@ -33,13 +33,19 @@ const brandDescriptions = {
         description: "Il marchio Honda è una presenza iconica nel mondo delle motociclette. Fondata nel 1948 da Soichiro Honda e Takeo Fujisawa, l’azienda ha guadagnato una reputazione di eccellenza nel settore delle due ruote. Nel 1949, la prima moto Honda, chiamata “Dream” (ossia “sogno”), ha segnato l’inizio del cammino della Honda verso il ruolo di primo produttore giapponese di motociclette. Da allora, la Honda ha realizzato oltre 400 milioni di esemplari di moto in tutto il mondo",
         image: "honda.png",  
         motogp: "Honda è un marchio iconico nel mondo delle corse motociclistiche, e la sua presenza in MotoGP è di grande rilevanza.Il Repsol Honda Team è il team ufficiale di Honda in MotoGP.La moto utilizzata dal team è la RC213V, una macchina altamente competitiva negli scorsi anni che con l'avento dell'elettronica e dell'importanza dell'aerodinamica ha perso competività. <br>Marc Marquez in crisi con la casa motociclistica Honda, nella stagione 2024, è passato in Pramac, una sottocasa che usa moto Ducati della stagione 2023, dove Marc è molto competitivo.",
-        motogpimage: "marquez.jpg"
+        motogpimage: "marquez.jpg",
+        stradale:"Honda, casa giapponese, ha moltissimi modelli di moto: CBR, CBS, GS, GSX, GSX-R, CR, CRF",
+        stradaleimage1:"hondaCBR1000.jpg",
+        stradaleimage2:"hondaCRF.jpg"
     },
     ktm: {
         description: "KTM, l’acronimo di “Kronreif, Trunkenpolz, Mattighofen,” rappresenta i nomi dei fondatori di questa celebre casa motociclistica austriaca. Fondata nel 1934 dall’ingegnere Hans Trunkenpolz a Mattighofen, la KTM ha una lunga storia di produzione di motociclette ad alte prestazioni e di qualità superiore. Nel corso degli anni, si è distinta per la passione e la dedizione nella creazione di moto innovative, spaziando dai modelli da strada alle moto da cross e enduro12. Il suo slogan, “Ready to race,” riflette l’impegno verso l’avventura e la scoperta, oltre i confini del mondo conosciuto. <br> Molto comprata dai sedicenni che vogliono una moto da alte prestazioni(la versione 2 tempi)",
         image: "ktm.jpg",  
         motogp: "La squadra Red Bull KTM Factory Racing è stata parte dell’élite della MotoGP sin dall’inizio del 2017. Nel 2023, hanno ottenuto il 2° posto nel Campionato Costruttori e il 4° posto nel Campionato Piloti grazie a Brad Binder, che ha ottenuto 8 podi e due vittorie Sprint, stabilendo anche un nuovo record di velocità in MotoGP di 366,1 km/h al Gran Premio d’Italia a maggio. Inoltre, il compagno di squadra Jack Miller ha contribuito con prestazioni eccezionali. La KTM ha già conquistato sei vittorie nei Gran Premi prima dell’inizio del campionato 2024, che sarà la loro ottava stagione con la KTM RC16.",
-        motogpimage: "ktmGP.jpg"
+        motogpimage: "ktmGP.jpg",
+        stradale:"La gamma KTM è molto vasta, nata per il cross/enduro, si è spostata su moto stradali. <br>per l'enduro/cross esiste la gamma sx, exc, exc-w. <br>per la gamma stradale eiste il Duke che parte dalle piccole cilindrate(125) e arriva alla cilindrata più grande (1390), la gamma rc che è quella sportiva.",
+        stradaleimage1:"duke1390.jpg",
+        stradaleimage2:"ktm125.jpg"
     },
 };
 
